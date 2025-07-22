@@ -1,0 +1,2 @@
+-- TODO Look here https://github.com/hendrikmi/dotfiles/blob/a3cb9521c863e35c94e9d452d43ae1e1a5951cb0/nvim/lua/core/keymaps.lua
+-- Try and come up with pain points before adding all the plugins there. Add progressively
