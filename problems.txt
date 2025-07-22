@@ -1,1 +1,0 @@
-- Currently just doing one editor at a time. I know there's lots of ways to split them out and stuff but it will be good when to use splitting on the neovim side vs using it on the tmux side
