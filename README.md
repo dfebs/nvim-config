@@ -13,4 +13,7 @@ git clone this repo
 - [] Worth eventually doing the :Tutor thing. Might learn some extra stuff.
 - [] Have paste-over not actually copy the thing you are pasting over
 - [] Have telescope ignore stuff like node_modules and show hidden files. This goes for file search and livegrep
-
+- [] Figure out if gitsigns has more features. It's pretty neat so far
+- [] (non-neovim) have tmux use ctrl+a instead of ctrl+b
+- [] (non-neovim) Look into the ranger command line tool
+- [] (non-neovim) Look into the lazygit tool
