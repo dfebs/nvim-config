@@ -1,7 +1,15 @@
-vim.opt.clipboard = "unnamedplus"
+
+-- Set <space> as the leader key
+-- See `:help mapleader`
+--  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
+
+vim.schedule(function()
+  vim.o.clipboard = 'unnamedplus'
+end)
 vim.wo.number = true
 vim.o.relativenumber = true
-vim.o.wrap = false
 vim.o.linebreak = true
 vim.o.autoindent = true
 vim.o.breakindent = true -- Enable break indent
@@ -34,3 +42,4 @@ vim.opt.iskeyword:append '-' -- hyphenated words recognized by searches
 vim.opt.formatoptions:remove { 'c', 'r', 'o' } -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
 vim.opt.runtimepath:remove '/usr/share/vim/vimfiles' -- separate vim plugins from neovim in case vim still in use
 vim.o.cursorline = true -- highlight the current line
+-- vim.o.inccommand = 'split' < preview substitutions live
