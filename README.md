@@ -14,6 +14,8 @@ git clone this repo
 - [] Have paste-over not actually copy the thing you are pasting over
 - [] Have telescope ignore stuff like node_modules and show hidden files. This goes for file search and livegrep
 - [] Figure out if gitsigns has more features. It's pretty neat so far
+- [] Figure out how to comment out selections
+- [] Figure out how to tab selections to indent everything in the selection
 - [] (non-neovim) have tmux use ctrl+a instead of ctrl+b
 - [] (non-neovim) Look into the ranger command line tool
 - [] (non-neovim) Look into the lazygit tool

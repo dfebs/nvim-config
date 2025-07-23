@@ -34,5 +34,6 @@ require('lazy').setup({
     require('plugins/color-theme'),
     require('plugins/telescope'),
     require('plugins/gitsigns'),
+    require('plugins/treesitter'),
 })
 

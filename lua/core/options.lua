@@ -1,4 +1,3 @@
-
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
@@ -8,6 +7,9 @@ vim.g.maplocalleader = ' '
 vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
+
+vim.o.list = true
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 vim.wo.number = true
 vim.o.relativenumber = true
 vim.o.linebreak = true
@@ -23,7 +25,7 @@ vim.o.writebackup = false -- if a file is being edited by another program (or wa
 vim.o.completeopt = 'menuone,noselect' -- Set completeopt to have a better completion experience
 vim.opt.termguicolors = true -- set termguicolors to enable highlight groups
 vim.o.whichwrap = 'bs<>[]' -- which "horizontal" keys are allowed to travel to prev/next line
-vim.o.scrolloff = 4 -- minimal number of screen lines to keep above and below the cursor
+vim.o.scrolloff = 10 -- minimal number of screen lines to keep above and below the cursor
 vim.o.sidescrolloff = 8 -- minimal number of screen columns either side of cursor if wrap is `false`
 vim.o.shiftwidth = 4 -- the number of spaces inserted for each indentation
 vim.o.tabstop = 4 -- insert n spaces for a tab
