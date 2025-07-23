@@ -32,5 +32,6 @@ rtp:prepend(lazypath)
 require('lazy').setup({
     require('plugins/neo-tree'),
     require('plugins/color-theme'),
+    require('plugins/telescope'),
 })
 
