@@ -10,6 +10,7 @@ git clone this repo
 ## Things to consider (a sorta to-do list)
 
 - [ ] Currently just doing one editor at a time. I know there's lots of ways to split them out and stuff but it will be good when to use splitting on the neovim side vs using it on the tmux side
+- [ ] Fix issue where copy/paste doesn't work on mac because I have it currently designed for wsl
 - [ ] Worth eventually doing the `:Tutor` thing. Might learn some extra stuff.
 - [ ] Have paste-over not actually copy the thing you are pasting over
 - [ ] Have telescope ignore stuff like node_modules and show hidden files. This goes for file search and livegrep
