@@ -17,6 +17,8 @@ git clone this repo
 - [ ] Figure out how to comment out selections
 - [ ] Figure out how to tab selections to indent everything in the selection
 - [ ] Look into bufferline and lualine
+- [ ] Look into plugins that do code collapsing
 - [ ] (non-neovim) have tmux use ctrl+a instead of ctrl+b
 - [ ] (non-neovim) Look into the ranger command line tool
 - [ ] (non-neovim) Look into the lazygit tool
+
