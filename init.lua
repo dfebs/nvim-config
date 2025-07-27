@@ -37,5 +37,7 @@ require('lazy').setup({
     require('plugins/treesitter'),
     require('plugins/alpha'),
     require('plugins/indent-blankline'),
+    require('plugins/bufferline'),
+    require('plugins/lualine'),
 })
 
