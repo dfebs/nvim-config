@@ -11,7 +11,7 @@ vim.g.clipboard = {
 
   paste = {
     ["+"] = 'powershell.exe -NoLogo -NoProfile -Command [Console]::Out.Write($(Get-Clipboard -Raw).ToString().Replace("`r", ""))',
-    ["*"] = 'powershell.exe -NoLogo -NoProfile -Command [Console]::Out.Write($(Get-Clipboard -Raw).ToString().Replace("`r", ""))', 
+    ["*"] = 'powershell.exe -NoLogo -NoProfile -Command [Console]::Out.Write($(Get-Clipboard -Raw).ToString().Replace("`r", ""))',
   },
 
   cache_enabled = 0,
@@ -39,5 +39,7 @@ require('lazy').setup({
     require('plugins/indent-blankline'),
     require('plugins/bufferline'),
     require('plugins/lualine'),
+    require('plugins/lsp'),
+    require('plugins/lazydev'),
 })
 
