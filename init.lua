@@ -35,5 +35,6 @@ require('lazy').setup({
     require('plugins/telescope'),
     require('plugins/gitsigns'),
     require('plugins/treesitter'),
+    require('plugins/alpha'),
 })
 
