@@ -36,5 +36,6 @@ require('lazy').setup({
     require('plugins/gitsigns'),
     require('plugins/treesitter'),
     require('plugins/alpha'),
+    require('plugins/indent-blankline'),
 })
 
