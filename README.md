@@ -19,6 +19,7 @@ git clone this repo
 - [ ] Look into plugins that do code collapsing
 - [ ] Find the equivalent for javascript debug terminal
 - [ ] Spellchecking and linting
+- [ ] Undo history
 - [x] (non-neovim) have tmux use ctrl+a instead of ctrl+b
 - [ ] (non-neovim) Look into the ranger command line tool
 - [ ] (non-neovim) Look into the lazygit tool
