@@ -1,21 +1,25 @@
 require('core.options')
 require('core.keymaps')
 
-vim.g.clipboard = {
-  name = "WslClipboard",
+-- Check if user is on mac instead of WSL. Is this highly specific? Yes. Does it work for me? Also yes.
+local home = os.getenv("HOME")
+if home and not home:match("^/Users/") then
+  vim.g.clipboard = {
+    name = "WslClipboard",
 
-  copy = {
-    ["+"] = "clip.exe",
-    ["*"] = "clip.exe",
-  },
+    copy = {
+      ["+"] = "clip.exe",
+      ["*"] = "clip.exe",
+    },
 
-  paste = {
-    ["+"] = 'powershell.exe -NoLogo -NoProfile -Command [Console]::Out.Write($(Get-Clipboard -Raw).ToString().Replace("`r", ""))',
-    ["*"] = 'powershell.exe -NoLogo -NoProfile -Command [Console]::Out.Write($(Get-Clipboard -Raw).ToString().Replace("`r", ""))',
-  },
+    paste = {
+      ["+"] = 'powershell.exe -NoLogo -NoProfile -Command [Console]::Out.Write($(Get-Clipboard -Raw).ToString().Replace("`r", ""))',
+      ["*"] = 'powershell.exe -NoLogo -NoProfile -Command [Console]::Out.Write($(Get-Clipboard -Raw).ToString().Replace("`r", ""))',
+    },
 
-  cache_enabled = 0,
-}
+    cache_enabled = 0,
+  }
+end
 
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
