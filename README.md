@@ -10,7 +10,7 @@ git clone this repo
 ## Things to consider (a sorta to-do list)
 
 - [ ] Figure out how to get telescope to NOT ignore dotfiles but still ignore gitignore stuff
-- [ ] Fix issue where copy/paste doesn't work on mac because I have it currently designed for wsl
+- [x] Fix issue where copy/paste doesn't work on mac because I have it currently designed for wsl
 - [ ] Worth eventually doing the `:Tutor` thing. Might learn some extra stuff.
 - [x] Have telescope ignore stuff like node_modules and show hidden files. This goes for file search and livegrep
 - [ ] Figure out how to comment out selections
