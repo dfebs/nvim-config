@@ -206,8 +206,10 @@ return
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
-        --
-
+        cssls = {},
+        jsonls = {},
+        html = {},
+        eslint = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
