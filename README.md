@@ -11,7 +11,7 @@ git clone this repo
 
 
 - [ ] Find the equivalent for javascript debug terminal
-- [ ] Figure out the javascript/nodejs lsp + eslint/prettier situation
+- [x] Figure out the javascript/nodejs lsp + eslint/prettier situation
 - [ ] Figure out how to get telescope to NOT ignore dotfiles but still ignore gitignore stuff
 - [x] Fix issue where copy/paste doesn't work on mac because I have it currently designed for wsl
 - [ ] Worth eventually doing the `:Tutor` thing. Might learn some extra stuff.

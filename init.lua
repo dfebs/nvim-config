@@ -45,5 +45,6 @@ require('lazy').setup({
     require('plugins/lualine'),
     require('plugins/lsp'),
     require('plugins/lazydev'),
+    require('plugins/autocompletion'),
 })
 
