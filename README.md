@@ -11,6 +11,7 @@ git clone this repo
 
 
 - [ ] Find the equivalent for javascript debug terminal. See article [here](https://www.darricheng.com/posts/setting-up-nodejs-debugging-in-neovim/) and video [here](https://www.youtube.com/watch?v=CVCBHHFXWNE&t=438s)
+- [ ] Learn how to use [luasnip](https://github.com/L3MON4D3/LuaSnip) to add snippets 
 - [x] Figure out the javascript/nodejs lsp + eslint/prettier situation
 - [ ] Figure out how to get telescope to NOT ignore dotfiles but still ignore gitignore stuff
 - [x] Fix issue where copy/paste doesn't work on mac because I have it currently designed for wsl
