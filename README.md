@@ -10,7 +10,7 @@ git clone this repo
 ## Things to consider (a sorta to-do list)
 
 
-- [ ] Find the equivalent for javascript debug terminal
+- [ ] Find the equivalent for javascript debug terminal. See article [here](https://www.darricheng.com/posts/setting-up-nodejs-debugging-in-neovim/) and video [here](https://www.youtube.com/watch?v=CVCBHHFXWNE&t=438s)
 - [x] Figure out the javascript/nodejs lsp + eslint/prettier situation
 - [ ] Figure out how to get telescope to NOT ignore dotfiles but still ignore gitignore stuff
 - [x] Fix issue where copy/paste doesn't work on mac because I have it currently designed for wsl
