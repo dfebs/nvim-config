@@ -47,5 +47,6 @@ require('lazy').setup({
     require('plugins/lazydev'),
     require('plugins/autocompletion'),
     require('plugins/blame'),
+    require('plugins/autoformat'),
 })
 
