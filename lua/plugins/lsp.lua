@@ -256,6 +256,11 @@ return {
         formatter = "standard",
         linters = { "standard" },
       },
+
+      -- This was added by me, because currently Ruby LSP is not
+      -- playing nicely with html.erb files. Remove this line to allow
+      -- erb files again. Prolly after a new release of Ruby LSP
+      filetypes = { "ruby" },
     })
 
     require("mason-lspconfig").setup({

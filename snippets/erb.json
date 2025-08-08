@@ -1,0 +1,44 @@
+{
+    "ERB Output Tag": {
+        "prefix": "erb",
+        "body": [
+            "<%= $1 %>"
+        ],
+        "description": "Insert <%= %> tag"
+    },
+    "ERB Exec Tag": {
+        "prefix": "erbexec",
+        "body": [
+            "<% $1 %>"
+        ],
+        "description": "Insert <% %> tag"
+    },
+    "ERB Comment Tag": {
+        "prefix": "erbcomment",
+        "body": [
+            "<%# $1 %>"
+        ],
+        "description": "Insert <%# %> comment tag"
+    },
+    "ERB End Tag": {
+        "prefix": "erbend",
+        "body": [
+            "<% end %>$1"
+        ],
+        "description": "Insert <% end %> end tag"
+    },
+    "ERB Output Block": {
+        "prefix": "erbblock",
+        "body": [
+            "<%= $1 %>\n\n<% end %>"
+        ],
+        "description": "Insert full output block"
+    },
+    "ERB Block": {
+        "prefix": "erbexecblock",
+        "body": [
+            "<% $1 %>\n\n<% end %>"
+        ],
+        "description": "Insert full exec block"
+    }
+}
