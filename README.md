@@ -19,6 +19,7 @@ git clone this repo
 - [ ] Undo history
 - [ ] (non-neovim) Look into the ranger command line tool
 - [ ] Make html.erb files more accessible with snippets and html lsp
+- [ ] Figure out why pasting also includes an extra newline
 
 ## Completed todo items
 - [x] Learn how to use [luasnip](https://github.com/L3MON4D3/LuaSnip) to add snippets 
