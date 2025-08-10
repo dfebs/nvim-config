@@ -9,7 +9,7 @@ git clone this repo
 
 ## Todo
 - [ ] Find the equivalent for javascript debug terminal. See article [here](https://www.darricheng.com/posts/setting-up-nodejs-debugging-in-neovim/) and video [here](https://www.youtube.com/watch?v=CVCBHHFXWNE&t=438s)
-- [ ] Get snippets working for erb files
+- [ ] Figure out why tab misbehaves on newlines in erb files
 - [ ] Figure out how to have neovim auto include end curly brackets in JS
 - [ ] See if there's plugins for handling git conflicts
 - [ ] Figure out how to get telescope to NOT ignore dotfiles but still ignore gitignore stuff
@@ -19,7 +19,6 @@ git clone this repo
 - [ ] Undo history
 - [ ] (non-neovim) Look into the ranger command line tool
 - [ ] Make html.erb files more accessible with snippets and html lsp
-- [ ] Figure out why pasting also includes an extra newline
 
 ## Completed todo items
 - [x] Learn how to use [luasnip](https://github.com/L3MON4D3/LuaSnip) to add snippets 
@@ -32,3 +31,4 @@ git clone this repo
 - [x] Fix issue where copy/paste doesn't work on mac because I have it currently designed for wsl
 - [x] (non-neovim) have tmux use ctrl+a instead of ctrl+b
 - [x] (non-neovim) Look into the lazygit tool
+- [x] Get snippets working for erb files

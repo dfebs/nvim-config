@@ -254,7 +254,7 @@ return {
     lspconfig.ruby_lsp.setup({
       init_options = {
         formatter = "standard",
-        linters = { "standard" },
+        linters = { "standard", "rubocop" },
       },
 
       -- This was added by me, because currently Ruby LSP is not
