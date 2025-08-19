@@ -40,6 +40,8 @@ vim.o.showtabline = 1 -- only show tabs when there's multiple
 vim.o.backspace = "indent,eol,start" -- allow backspace on
 vim.o.pumheight = 10 -- pop up menu height
 vim.o.fileencoding = "utf-8" -- the encoding written to a file
+vim.opt.spell = true
+vim.opt.spelllang = "en_us"
 vim.opt.shortmess:append("c") -- don't give |ins-completion-menu| messages
 vim.opt.iskeyword:append("-") -- hyphenated words recognized by searches
 vim.opt.formatoptions:remove({ "c", "r", "o" }) -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
