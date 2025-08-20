@@ -22,3 +22,8 @@ vim.keymap.set("n", "<leader>gb", ":BlameToggle window<CR>", { desc = "Toggle gi
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
+
+-- Diagnostics
+vim.keymap.set("n", "<leader>d", function()
+  vim.diagnostic.open_float(nil, { focus = false })
+end, { desc = "Show diagnostic in float" })
