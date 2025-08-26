@@ -215,6 +215,7 @@ return {
       jsonls = {},
       eslint = {},
       cssls = {},
+      ts_ls = {},
       lua_ls = {
         -- cmd = { ... },
         -- filetypes = { ... },
