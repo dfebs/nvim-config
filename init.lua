@@ -48,4 +48,5 @@ require("lazy").setup({
   require("plugins/blame"),
   require("plugins/autoformat"),
   require("plugins.endwise"),
+  require("plugins/autopairs"),
 })
