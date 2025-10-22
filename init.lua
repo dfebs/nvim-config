@@ -49,4 +49,5 @@ require("lazy").setup({
   require("plugins/autoformat"),
   require("plugins.endwise"),
   require("plugins/autopairs"),
+  require("plugins/mini-surround"),
 })
