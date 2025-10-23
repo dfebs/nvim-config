@@ -47,7 +47,8 @@ require("lazy").setup({
   require("plugins/autocompletion"),
   require("plugins/blame"),
   require("plugins/autoformat"),
-  require("plugins.endwise"),
+  require("plugins/endwise"),
   require("plugins/autopairs"),
   require("plugins/mini-surround"),
+  require("plugins/dap"),
 })
