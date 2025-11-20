@@ -216,6 +216,7 @@ return {
       eslint = {},
       cssls = {},
       ts_ls = {},
+      rust_analyzer = {},
       lua_ls = {
         -- cmd = { ... },
         -- filetypes = { ... },
