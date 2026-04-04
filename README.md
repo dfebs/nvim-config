@@ -13,7 +13,7 @@ git clone this repo
 - [ ] Worth eventually doing the `:Tutor` thing. Might learn some extra stuff
 - [ ] Look into code collapsing
 - [ ] Make a plugin for special copy and paste: Basically provide git repo, relative path, line numbers, and then code surrounded by backticks. Made for code sharing.
-- [ ] Have a way to quickly reset a line in a file without having to switch over to lazygit
+- [ ] Have a way to quickly reset a line in a file without having to switch over to lazygit. (This part of the gitsigns actually might do this: [woah](https://github.com/lewis6991/gitsigns.nvim?tab=readme-ov-file#-keymaps))
 - [ ] Figure out how to get telescope to ignore dotfiles but still ignore gitignore stuff
 - [ ] Fix issue where telescope is slow when it runs into a file with huge lines (e.g. minified/obfuscated files)
 - [ ] Find the equivalent for javascript debug terminal. See article [here](https://www.darricheng.com/posts/setting-up-nodejs-debugging-in-neovim/) and video [here](https://www.youtube.com/watch?v=CVCBHHFXWNE&t=438s)
