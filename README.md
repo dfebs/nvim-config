@@ -8,17 +8,15 @@ git clone this repo
 ```
 
 ## Todo
-- [ ] Find the equivalent for javascript debug terminal. See article [here](https://www.darricheng.com/posts/setting-up-nodejs-debugging-in-neovim/) and video [here](https://www.youtube.com/watch?v=CVCBHHFXWNE&t=438s)
 - [ ] [ERB] Figure out why tab misbehaves on newlines
 - [ ] [ERB] Make html.erb files more accessible with snippets and html lsp
-- [ ] [JS] Figure out how to have neovim auto include end curly brackets
-- [ ] [JS] Figure out how to have autocomplete suggestions for variables that are in the same file.
-- [ ] See if there's plugins for handling git conflicts
-- [ ] Figure out how to get telescope to NOT ignore dotfiles but still ignore gitignore stuff
-- [ ] Worth eventually doing the `:Tutor` thing. Might learn some extra stuff.
-- [ ] Look into plugins that do code collapsing
-- [ ] Spellchecking
-- [ ] Undo history
+- [ ] Worth eventually doing the `:Tutor` thing. Might learn some extra stuff
+- [ ] Look into code collapsing
+- [ ] Make a plugin for special copy and paste: Basically provide git repo, relative path, line numbers, and then code surrounded by backticks. Made for code sharing.
+- [ ] Have a way to quickly reset a line in a file without having to switch over to lazygit
+- [ ] Figure out how to get telescope to ignore dotfiles but still ignore gitignore stuff
+- [ ] Fix issue where telescope is slow when it runs into a file with huge lines (e.g. minified/obfuscated files)
+- [ ] Find the equivalent for javascript debug terminal. See article [here](https://www.darricheng.com/posts/setting-up-nodejs-debugging-in-neovim/) and video [here](https://www.youtube.com/watch?v=CVCBHHFXWNE&t=438s)
 
 ## Completed todo items
 - [x] Learn how to use [luasnip](https://github.com/L3MON4D3/LuaSnip) to add snippets 
@@ -33,3 +31,6 @@ git clone this repo
 - [x] (non-neovim) Look into the lazygit tool
 - [x] Get snippets working for erb files
 - [x] (non-neovim) Look into the ranger command line tool
+- [x] Spellchecking
+- [x] [JS] Figure out how to have neovim auto include end curly brackets
+- [x] [JS] Figure out how to have autocomplete suggestions for variables that are in the same file
