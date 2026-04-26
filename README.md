@@ -10,6 +10,7 @@ git clone this repo
 ## Todo
 - [ ] [ERB] Figure out why tab misbehaves on newlines
 - [ ] [ERB] Make html.erb files more accessible with snippets and html lsp
+- [ ] Figure out how to get angle brackets to auto fill when hitting the left bracket
 - [ ] Worth eventually doing the `:Tutor` thing. Might learn some extra stuff
 - [ ] Look into code collapsing
 - [ ] Make a plugin for special copy and paste: Basically provide git repo, relative path, line numbers, and then code surrounded by backticks. Made for code sharing.
