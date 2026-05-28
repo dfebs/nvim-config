@@ -248,9 +248,7 @@ return {
     })
     require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
-    local lspconfig = require("lspconfig")
-
-    lspconfig.ruby_lsp.setup({
+    local ruby_lsp_config = {
       init_options = {
         formatter = "standard",
         linters = { "standard", "rubocop" },
@@ -260,7 +258,10 @@ return {
       -- playing nicely with html.erb files. Remove this line to allow
       -- erb files again. Prolly after a new release of Ruby LSP
       filetypes = { "ruby" },
-    })
+    }
+
+    vim.lsp.config("ruby_lsp", ruby_lsp_config)
+    vim.lsp.enable("ruby_lsp")
 
     require("mason-lspconfig").setup({
       ensure_installed = {}, -- explicitly set to an empty table (Kickstart populates installs via mason-tool-installer)
@@ -272,7 +273,9 @@ return {
           -- by the server configuration above. Useful when disabling
           -- certain features of an LSP (for example, turning off formatting for ts_ls)
           server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
-          lspconfig[server_name].setup(server)
+          -- lspconfig[server_name].setup(server)
+          vim.lsp.config(server_name, server)
+          vim.lsp.enable(server_name)
         end,
       },
     })
