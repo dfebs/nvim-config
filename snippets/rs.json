@@ -1,0 +1,16 @@
+{
+    "Basic println": {
+        "prefix": "pl",
+        "body": [
+            "println!(\"{}\", $1)"
+        ],
+        "description": "Basic Rust println!"
+    },
+    "Complex println": {
+        "prefix": "cpl",
+        "body": [
+            "println!(\"{:#?}\", $1)"
+        ],
+        "description": "Complex Rust println!"
+    }
+}
