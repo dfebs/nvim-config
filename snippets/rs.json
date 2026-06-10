@@ -1,10 +1,17 @@
 {
-    "Basic println": {
-        "prefix": "pl",
+    "Format println": {
+        "prefix": "fpl",
         "body": [
             "println!(\"{}\", $1)"
         ],
-        "description": "Basic Rust println!"
+        "description": "Format Rust println!"
+    },
+    "String println": {
+        "prefix": "spl",
+        "body": [
+            "println!(\"$1\")"
+        ],
+        "description": "Simple Rust println!"
     },
     "Complex println": {
         "prefix": "cpl",
