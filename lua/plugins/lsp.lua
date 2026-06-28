@@ -263,6 +263,8 @@ return {
     vim.lsp.config("ruby_lsp", ruby_lsp_config)
     vim.lsp.enable("ruby_lsp")
 
+    vim.lsp.enable("gdscript")
+
     require("mason-lspconfig").setup({
       ensure_installed = {}, -- explicitly set to an empty table (Kickstart populates installs via mason-tool-installer)
       automatic_installation = false,
