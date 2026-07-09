@@ -50,4 +50,5 @@ require("lazy").setup({
   require("plugins.endwise"),
   require("plugins/autopairs"),
   require("plugins/mini-surround"),
+  require("plugins/debugger"),
 })
